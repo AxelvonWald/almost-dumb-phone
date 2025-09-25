@@ -18,13 +18,11 @@
             android:launchMode="singleTop"
             android:theme="@style/Theme.AlmostDumbPhone">
 
-            <!-- Standard app launcher -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <!-- HOME launcher - this makes it replaceable as home screen -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.HOME" />
