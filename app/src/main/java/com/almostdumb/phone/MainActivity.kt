@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.GridView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-
+import android.graphics.Color
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appGridView: GridView
@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        window.statusBarColor = android.graphics.Color.BLACK
 
         appGridView = findViewById(R.id.app_grid)
         loadAllowedApps()
