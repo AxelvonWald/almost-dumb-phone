@@ -2,6 +2,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <queries>
+        <package android:name="org.thoughtcrime.securesms" />
+        <package android:name="com.whatsapp" />
+        <package android:name="com.sec.android.app.popupcalculator" />
+        <package android:name="com.sec.android.app.clockpackage" />
+        <package android:name="nz.co.mbit.topo" />
+        <package android:name="nz.co.nzpost" />
+        <package android:name="nz.org.geonet.quake" />
+        <package android:name="com.zoho.mail" />
+        <package android:name="eu.faircode.email" />
+        <package android:name="ch.protonmail.android" />
+        <package android:name="ak.alizandro.smartaudiobookplayer" />
+
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +31,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AlmostDumbPhone"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -29,6 +49,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
