@@ -44,7 +44,9 @@ class MainActivity : AppCompatActivity() {
             "com.zoho.mail", // Zoho Mail
             "eu.faircode.email", // FairEmail
             "ch.protonmail.android", // ProtonMail
-            "ak.alizandro.smartaudiobookplayer" // Smart Audiobook
+            "ak.alizandro.smartaudiobookplayer", // Smart Audiobook
+            "nz.co.kiwibank.mobile", // Kiwibank
+            "com.google.android.apps.maps" // Google Maps
         )
 
         val foundApps = mutableListOf<ResolveInfo>()
@@ -53,8 +55,8 @@ class MainActivity : AppCompatActivity() {
         val systemApps = listOf(
             "com.android.settings", "com.samsung.android.dialer",
             "com.samsung.android.messaging", "com.sec.android.app.camera",
-            "com.sec.android.gallery3d", "com.sec.android.app.myfiles",
-            "com.almostdumb.phone"
+            "com.sec.android.gallery3d", "com.sec.android.app.myfiles"
+
         )
 
         foundApps.addAll(launcherApps.filter {
