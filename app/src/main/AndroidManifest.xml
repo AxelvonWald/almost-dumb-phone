@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
+        <!-- Your existing apps -->
         <package android:name="org.thoughtcrime.securesms" />
         <package android:name="com.whatsapp" />
         <package android:name="com.sec.android.app.popupcalculator" />
@@ -16,6 +17,9 @@
         <package android:name="ak.alizandro.smartaudiobookplayer" />
         <package android:name="nz.co.kiwibank.mobile" />
         <package android:name="com.google.android.apps.maps" />
+
+        <!-- Add your language app -->
+        <package android:name="com.ionalanguages.app" />
 
         <intent>
             <action android:name="android.intent.action.MAIN" />

@@ -46,7 +46,8 @@ class MainActivity : AppCompatActivity() {
             "ch.protonmail.android", // ProtonMail
             "ak.alizandro.smartaudiobookplayer", // Smart Audiobook
             "nz.co.kiwibank.mobile", // Kiwibank
-            "com.google.android.apps.maps" // Google Maps
+            "com.google.android.apps.maps", // Google Maps
+            "com.ionalanguages.app" // Iona Languages
         )
 
         val foundApps = mutableListOf<ResolveInfo>()
